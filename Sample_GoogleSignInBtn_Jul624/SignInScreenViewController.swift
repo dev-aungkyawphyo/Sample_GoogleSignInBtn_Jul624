@@ -6,9 +6,14 @@
 //
 
 import UIKit
+import GoogleSignIn
 
-class ViewController: UIViewController {
-
+class SignInScreenViewController: UIViewController {
+    
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var signinBtn: UIButton!
+    @IBOutlet weak var signoutBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
