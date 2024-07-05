@@ -63,10 +63,10 @@
 				1D3A11F02C386EEB00AF5827 /* AppDelegate.swift */,
 				1D3A11F22C386EEB00AF5827 /* SceneDelegate.swift */,
 				1D3A11F62C386EEB00AF5827 /* Main.storyboard */,
+				1D3A11F42C386EEB00AF5827 /* SignInScreenViewController.swift */,
 				1D3A11F92C386EEC00AF5827 /* Assets.xcassets */,
 				1D3A11FB2C386EEC00AF5827 /* LaunchScreen.storyboard */,
 				1D3A11FE2C386EEC00AF5827 /* Info.plist */,
-				1D3A11F42C386EEB00AF5827 /* SignInScreenViewController.swift */,
 			);
 			path = Sample_GoogleSignInBtn_Jul624;
 			sourceTree = "<group>";

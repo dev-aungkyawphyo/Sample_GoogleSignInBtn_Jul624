@@ -23,11 +23,17 @@
                                         <rect key="frame" x="0.0" y="0.0" width="146" height="42.333333333333336"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Google Sign in"/>
+                                        <connections>
+                                            <action selector="didTappedSignInBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="biq-ZT-VoR"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQx-Jl-xyO">
                                         <rect key="frame" x="0.0" y="62.333333333333314" width="146" height="42.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Google Sign out"/>
+                                        <connections>
+                                            <action selector="didTappedSignOutBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tXK-ax-bxj"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
